@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .div1 {
+        width: 300px;
+        height: 100px;
+        border: 1px solid blue;
+        box-sizing: border-box;
+      }
+
+      .div2 {
+        width: 300px;
+        height: 100px;
+        padding: 10px;
+        border: 1px solid red;
+      }
+
+      #a,
+      #b,
+      #b-child {
+        width: 100px;
+        height: 100px;
+      }
+      #a {
+        position: absolute;
+        background-color: red;
+        z-index: 1;
+      }
+      #b {
+        position: relative;
+        background-color: green;
+        margin-left: 50px;
+      }
+      #b-child {
+        position: absolute;
+        background-color: purple;
+        margin-left: 30px;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1>With box-sizing</h1>
+
+<div class="div1">Both divs are the same size now!</div>
+<br>
+<div class="div2">Hooray!</div> -->
+
+    <div id="a"></div>
+    <div id="b">
+      <div id="b-child"></div>
+    </div>
+  </body>
+</html>
