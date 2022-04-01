@@ -171,4 +171,75 @@ section#about::before {
   background: rgba(255, 255, 255, 0.92);
   z-index: 9;
 }
+
+section#services {
+  background: #fff;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+}
+
+section#services .my-container #servicesContent p.subheading {
+  font-size: 15px;
+}
+
+section#services .my-container #servicesContent #serviceRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section#services .my-container #servicesContent #serviceRow .service {
+  width: 31%;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: start;
+}
+
+section#services .my-container #servicesContent #serviceRow .service h3 {
+  margin-bottom: 10px;
+  color: #333;
+  text-transform: capitalize;
+}
+
+section#services .my-container #servicesContent #serviceRow .service p {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #333;
+}
+
+section#callToAction {
+  padding: 60px 0;
+  background: -webkit-gradient(linear, right top, left top, from(#155a62), to(#08a3b5));
+  background: linear-gradient(to left, #155a62, #08a3b5);
+}
+
+section#callToAction .my-container #content {
+  line-height: 1.7;
+  text-align: center;
+}
+
+section#callToAction .my-container #content h2 {
+  color: #fff;
+}
+
+section#callToAction .my-container #content p {
+  color: #fff;
+}
+
+section#callToAction .my-container #content button {
+  color: #fff;
+  background-color: #00acc1;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 /*# sourceMappingURL=style.css.map */
